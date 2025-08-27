@@ -24,7 +24,7 @@ function NavBar(props) {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Research", path: "/research" },
+    { name: "Education", path: "/education" },
     { name: "Experience", path: "/experience" },
     { name: "Projects", path: "/projects" },
   ];
@@ -36,7 +36,7 @@ function NavBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        Lauren Paffrath Web Portfolio
+        Emma Johnson Web Portfolio
       </Typography>
       <Divider />
       <List>

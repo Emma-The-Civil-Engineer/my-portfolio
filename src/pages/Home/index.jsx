@@ -98,7 +98,7 @@ const AboutSectionContent2 = styled(Box)`
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: contain;
+    object-fit: cover;
     max-height: 500px;
     max-width: 500px;
   `;

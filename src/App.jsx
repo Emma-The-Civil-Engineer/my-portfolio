@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar";
 import Home from "./pages/Home";
-import Research from "./pages/Research";
+import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import ItemInfo from "./components/itemInfo";
@@ -14,12 +14,12 @@ export default function App() {
       element: <Layout />,
       children: [
         { path: "/", element: <Home data={data.home} /> },
-        { path: "/research", element: <Research data={data.research}/> },
+        { path: "/education", element: <Education data={data.education}/> },
         {
-          path: "/research/:research",
+          path: "/education/:education",
           loader: ({ params }) => {
-            return data.research.itemList.find(
-              (p) => p.path === params.research
+            return data.education.itemList.find(
+              (p) => p.path === params.education
             );
           },
           element: <ItemInfo />,
