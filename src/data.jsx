@@ -1,7 +1,7 @@
 // home
 import home_picture from "./assets/home/emma-headshot.jpg";
 import aboutme from "./assets/home/aboutme.jpg";
-import resume from "./assets/home/Resume_LaurenPaffrath.pdf";
+import resume from "./assets/home/EmmaJohnson.pdf";
 
 // professional experience
 import starbucks from "./assets/experience/starbucks.jpg";
