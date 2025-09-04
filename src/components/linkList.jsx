@@ -35,12 +35,12 @@ export default function LinkList({resume, email, linkedin}) {
   };
 
   const downloadResume = () => {
-    setMessage(`Successfully Downloaded Lauren_Paffrath_Resume.pdf`)
+    setMessage(`Successfully Downloaded EmmaJohnson_Resume.pdf`)
     setOpen(true);
     const url = resume;
     const link = document.createElement("a");
     link.href = url;
-    link.download = "Lauren_Paffrath_Resume.pdf";
+    link.download = "EmmaJohnson_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
